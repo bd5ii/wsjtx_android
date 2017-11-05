@@ -12,7 +12,7 @@ set(ENABLE_FLOAT ON CACHE BOOL "use float")
 add_subdirectory(external/fftw-3.3.7 ${FFTW_OUT} EXCLUDE_FROM_ALL)
 
 # Fortran setup
-set(WSJT_LOC ../../wsjt/branches/wsjtx-1.8)
+set(WSJT_LOC external/wsjtx)
 
 set(FORTRAN_MODULES
     ${WSJT_LOC}/lib/crc.f90

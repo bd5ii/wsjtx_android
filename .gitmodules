@@ -1,0 +1,3 @@
+[submodule "app/external/wsjtx"]
+	path = app/external/wsjtx
+	url = https://github.com/mtharp/wsjtx-mirror.git
